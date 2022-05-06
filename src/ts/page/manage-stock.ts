@@ -1,0 +1,9 @@
+const prodName=document.querySelector<HTMLInputElement>("#txt-product-name")!;
+const prodDesc=document.querySelector<HTMLInputElement>("#txt-description")!;
+const prodPrice=document.querySelector<HTMLInputElement>("#txt-product-price")!;
+const btnBrowse = document.querySelector<HTMLButtonElement>('#btn-browse')!;
+const btnRemove = document.querySelector<HTMLButtonElement>('#btn-remove')!;
+const txtPreview = document.querySelector<HTMLInputElement>('#txt-preview')!;
+const divThumbnail = document.querySelector<HTMLDivElement>('#thumbnail')!;
+const btnSave = document.querySelector<HTMLButtonElement>('#btn-save')!;
+const btnClear = document.querySelector<HTMLButtonElement>('#btn-clear')!;
